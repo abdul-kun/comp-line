@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="header-section">
-                        <h1>Edit Profil</h1>
+                        <h1>Edit Password</h1>
                     </div>
                 </div>
                 <div class="col-sm-6 hidden-xs">
@@ -73,7 +73,7 @@
                 <div class="block">
                     <!-- Horizontal Form Title -->
                     <div class="block-title">
-                        <h2>Edit Profil</h2>
+                        <h2>Edit Password</h2>
                     </div>
                     <!-- END Horizontal Form Title -->
 
