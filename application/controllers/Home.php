@@ -25,7 +25,7 @@ class Home extends CI_Controller
 
 	public function dashboard_admin()
 	{
-		$data['judul'] 	= 'Webiste Aduan Masyarakat';
+		$data['judul'] 	= 'Website Aduan Masyarakat RT 10 RW 12';
 		$data['aktif'] 	= 'home';
 		$data['semua'] 	= $this->M_home->get_aduan_all()->num_rows();
 		$data['sudah'] 	= $this->M_home->get_aduan_id(0)->num_rows();
@@ -38,7 +38,7 @@ class Home extends CI_Controller
 	{
 		$user = $this->session->userdata('userdata_desa');
 
-		$data['judul'] 	= 'Webiste Aduan Masyarakat';
+		$data['judul'] 	= 'Website Aduan Masyarakat RT 10 RW 12';
 		$data['aktif'] 	= 'home';
 		$data['semua'] 	= $this->M_home->get_aduan_nik($user['nik'])->num_rows();
 		$data['sudah'] 	= $this->M_home->get_aduan_id_nik($user['nik'], 0)->num_rows();

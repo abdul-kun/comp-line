@@ -95,7 +95,7 @@
 
         <!-- Footer -->
         <footer class="text-muted text-center animation-pullUp">
-            <small>2020 @Copyright by Kelompok 3</span></a></small>
+            <small>2020 @Copyright by Kelompok 5</span></a></small>
         </footer>
         <!-- END Footer -->
     </div>

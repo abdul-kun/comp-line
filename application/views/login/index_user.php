@@ -104,7 +104,7 @@
         <footer class="text-muted text-center animation-pullUp">
             <small>
                 <a href="<?php echo site_url('Login/admin') ?>"></a>
-                <span>2020 @Copyright by Kelompok 3</span></a>
+                <span>2020 @Copyright by Kelompok 5</span></a>
             </small>
         </footer>
         <!-- END Footer -->

@@ -76,7 +76,7 @@
                     <!-- Sidebar Extra Info -->
                     <div id="sidebar-extra-info" class="sidebar-content sidebar-nav-mini-hide">
                         <div class="text-center">
-                            <small><span></span>2020 @ Copyright by Kelompok 3</small>
+                            <small><span></span>2020 @ Copyright by Kelompok 5</small>
                         </div>
                     </div>
                     <!-- END Sidebar Extra Info -->

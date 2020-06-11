@@ -16,7 +16,7 @@
 
             <!-- Header Link -->
             <li class="hidden-xs animation-fadeInQuick">
-                <a href=""><strong>Webiste Aduan Masyarakat</strong></a>
+                <a href=""><strong>Website Aduan Masyarakat RT 10 RW 12</strong></a>
             </li>
             <!-- END Header Link -->
         </ul>
@@ -55,7 +55,7 @@
                         <span class="pull-right text-muted">
 
                         </span>
-                        <strong class="text-light-op">Jumlah yang Belum Teverifikasi</strong>
+                        <strong class="text-light-op">Jumlah yang Belum Terverifikasi</strong>
                     </div>
                     <div class="widget-content themed-background-creme clearfix">
                         <div class="widget-icon pull-right">

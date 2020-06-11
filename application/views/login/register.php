@@ -64,7 +64,7 @@
                 <div class="block-options pull-right">
                     <a href="<?php echo site_url('Login') ?>" class="btn btn-effect-ripple btn-primary" data-toggle="tooltip" data-placement="left" title="Kembali ke halaman login"><i class="fa fa-circle"></i></a>
                 </div>
-                <h2> Daftar</h2>
+                <h2> Daftar Akun Baru</h2>
             </div>
             <!-- END Register Title -->
             <?php
@@ -121,7 +121,7 @@
 
         <!-- Footer -->
         <footer class="text-muted text-center animation-pullUp">
-            <small>2020 @Copyright by Kelompok 3</span></a></small>
+            <small>2020 @Copyright by Kelompok 5</span></a></small>
         </footer>
         <!-- END Footer -->
     </div>
@@ -132,13 +132,16 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title text-center"><strong>Aturan</strong></h3>
+                    <h3 class="modal-title text-center"><strong>Aturan Website Comp-Line</strong></h3>
                 </div>
                 <div class="modal-body">
                     <h4 class="page-header">1. <strong>Aturan Umum</strong></h4>
-                    <p>Web ini adalah sarana untuk menampung keluhan dan aspirasi Penduduk Desa Sukamaju</p>
+                    <p>Web ini adalah sarana untuk menampung keluhan dan aspirasi Masyarakat Rt 10 Rw 12 Kelurahan Kapuk
+                        Kecamatan Cengkareng, Jakarta Barat, DKI Jakarta
+                    </p>
                     <h4 class="page-header">2. <strong>Akun</strong></h4>
-                    <p>Penduduk yang bisa mendaftar dan login adalah Peduduk Desa Sukamaju</p>
+                    <p>Penduduk yang bisa mendaftar dan login adalah Masyarakat Rt 10 Rw 12 Kelurahan Kapuk
+                        Kecamatan Cengkareng, Jakarta Barat, DKI Jakarta</p>
                     <h4 class="page-header">3. <strong>Layanan</strong></h4>
                     <p>Kritik dan Saran dapat anda ajukan ke Admin atau melalui menu keluhan</p>
                 </div>

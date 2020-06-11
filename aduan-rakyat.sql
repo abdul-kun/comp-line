@@ -43,7 +43,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id_admin`, `nama_admin`, `jk`, `tempat_lahir`, `tanggal_lahir`, `username`, `password`) VALUES
-(1, 'kelompok 3', 'L', 'jakarta', '14-03-1996', 'admin', '21232f297a57a5a743894a0e4a801fc3');
+(1, 'Kelompok 5', 'L', 'jakarta', '14-03-1996', 'admin', '21232f297a57a5a743894a0e4a801fc3');
 
 -- --------------------------------------------------------
 
