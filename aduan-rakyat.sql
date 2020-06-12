@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2020 at 08:29 AM
+-- Generation Time: Jun 12, 2020 at 03:12 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -43,7 +43,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id_admin`, `nama_admin`, `jk`, `tempat_lahir`, `tanggal_lahir`, `username`, `password`) VALUES
-(1, 'Kelompok 5', 'L', 'jakarta', '14-03-1996', 'admin', '21232f297a57a5a743894a0e4a801fc3');
+(1, 'kelompok 5', 'L', 'jakarta', '14-03-1996', 'admin', '1844156d4166d94387f1a4ad031ca5fa');
 
 -- --------------------------------------------------------
 
@@ -85,6 +85,13 @@ CREATE TABLE `penduduk` (
   `password` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `penduduk`
+--
+
+INSERT INTO `penduduk` (`nik`, `nama`, `tempat_lahir`, `tanggal_lahir`, `jk`, `id_agama`, `username`, `password`) VALUES
+('117300116008990006', 'M Rizky Pratama', 'DKI Jakarta', '14-08-1999', 'L', 'A1', 'shota', 'bfe6bc9bd0cb69f57b26fe0b6738cae5');
+
 -- --------------------------------------------------------
 
 --
@@ -108,7 +115,11 @@ CREATE TABLE `pengaduan` (
 INSERT INTO `pengaduan` (`id_pengaduan`, `nik`, `pengaduan`, `tanggal`, `file`, `status`, `id_admin`) VALUES
 (1, '123451', 'Paving e rusak boss', '25-06-2018', '', 0, 1),
 (10, '123445', 'HMMMM YAYAYA', '26-06-2018', '4.jpg', 0, 1),
-(18, '12345', 'huhuhuhu', '06-05-2020', 'utama_5.png', 1, 1);
+(18, '12345', 'huhuhuhu', '06-05-2020', 'utama_5.png', 1, 1),
+(19, '117300116008990006', 'lalala', '09-06-2020', '18.jpg', 0, 1),
+(22, '117300116008990006', 'coba dulu', '11-06-2020', '1.JPG', 0, 1),
+(23, '117300116008990006', 'test lagi deh', '11-06-2020', '2020-05-08-09-42-16_0.png', 0, 1),
+(24, '117300116008990006', 'coba', '11-06-2020', '2020-03-27-22-04-09_0.png', 0, 1);
 
 --
 -- Indexes for dumped tables
@@ -153,7 +164,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `pengaduan`
 --
 ALTER TABLE `pengaduan`
-  MODIFY `id_pengaduan` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id_pengaduan` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- Constraints for dumped tables
