@@ -16,7 +16,7 @@
 
             <!-- Header Link -->
             <li class="hidden-xs animation-fadeInQuick">
-                <a href=""><strong>Webiste Aduan Masyarakat</strong></a>
+                <a href=""><strong>Website Aduan Masyarakat RT 10 RW 12</strong></a>
             </li>
             <!-- END Header Link -->
         </ul>
@@ -41,7 +41,7 @@
                     <div class="header-section">
                         <ul class="breadcrumb breadcrumb-top">
                             <li><a href="<?php echo site_url('') ?>">Comp-Line</a></li>
-                            <li>Penduduk</li>
+                            <li>Data Penduduk</li>
                         </ul>
                     </div>
                 </div>

@@ -46,7 +46,7 @@
                                     <a href="<?php echo site_url('Admin') ?>" class="<?php if ($aktif == 'admin') {
                                                                                             echo " active";
                                                                                         } ?>">
-                                        <i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Admin Sistem</span>
+                                        <i class="fa fa-users sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Data Admin</span>
                                     </a>
                                 </li>
 
@@ -83,7 +83,7 @@
                     <!-- Sidebar Extra Info -->
                     <div id="sidebar-extra-info" class="sidebar-content sidebar-nav-mini-hide">
                         <div class="text-center">
-                            <small><span></span> &copy; 2020 @ Copyright by Kelompok 3</a></small>
+                            <small><span></span> &copy; 2020 @ Copyright by Kelompok 5</a></small>
                         </div>
                     </div>
                     <!-- END Sidebar Extra Info -->

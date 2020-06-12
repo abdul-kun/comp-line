@@ -37,7 +37,7 @@ class Profil extends CI_Controller
 
     public function edit_akun($nik)
     {
-        $data['judul']      = 'Keluhan Masyarakat >> Edit Akun';
+        $data['judul']      = 'Keluhan Masyarakat - Edit Akun';
         $data['aktif']      = 'akun';
         $data['profil']     = $this->M_penduduk->get_nik($nik)->row_array();
         $this->load->view('profil/edit_akun', $data);
@@ -45,7 +45,7 @@ class Profil extends CI_Controller
 
     public function edit_akun_admin($id_admin)
     {
-        $data['judul']      = 'Keluhan Masyarakat >> Edit Akun';
+        $data['judul']      = 'Keluhan Masyarakat - Edit Akun';
         $data['aktif']      = 'akun';
         $data['profil']     = $this->M_admin->get_id($id_admin)->row_array();
         $this->load->view('profil/edit_akun_admin', $data);
@@ -178,7 +178,7 @@ class Profil extends CI_Controller
 
         //jika validasi gagal
         if ($this->form_validation->run() == FALSE) {
-            $data['judul']      = 'Keluhan Masyarakat >> Edit Akun';
+            $data['judul']      = 'Keluhan Masyarakat - Edit Akun';
             $data['aktif']      = 'akun';
             $data['profil']     = $this->M_penduduk->get_nik($nik)->row_array();
             $this->load->view('profil/edit_akun', $data);
@@ -226,7 +226,7 @@ class Profil extends CI_Controller
 
         //jika validasi gagal
         if ($this->form_validation->run() == FALSE) {
-            $data['judul']      = 'Keluhan Masyarakat >> Edit Akun';
+            $data['judul']      = 'Keluhan Masyarakat - Edit Akun';
             $data['aktif']      = 'akun';
             $data['profil']     = $this->M_admin->get_id($id_admin)->row_array();
             $this->load->view('profil/edit_akun_admin', $data);

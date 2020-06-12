@@ -41,7 +41,7 @@
                     <div class="header-section">
                         <ul class="breadcrumb breadcrumb-top">
                             <li><a href="<?php echo site_url('') ?>">Comp-Line</a></li>
-                            <li>Admin Sistem</li>
+                            <li>Data Admin</li>
                         </ul>
                     </div>
                 </div>

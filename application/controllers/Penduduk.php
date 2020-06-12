@@ -20,7 +20,7 @@ class Penduduk extends CI_Controller
 
     public function index()
     {
-        $data['judul']         = 'Keluhan Masyarakat >> Data Penduduk';
+        $data['judul']         = 'Keluhan Masyarakat - Data Penduduk';
         $data['aktif']         = 'penduduk';
         $data['penduduk']    = $this->M_penduduk->get_all()->result();
         $data['agama']         = $this->M_agama->get_all()->result();
@@ -80,7 +80,7 @@ class Penduduk extends CI_Controller
 
         //jika validasi gagal
         if ($this->form_validation->run() == FALSE) {
-            $data['judul']      = 'Keluhan Masyarakat >> Data Penduduk';
+            $data['judul']      = 'Keluhan Masyarakat - Data Penduduk';
             $data['aktif']      = 'penduduk';
             $data['penduduk']   = $this->M_penduduk->get_all()->result();
             $data['agama']      = $this->M_agama->get_all()->result();
@@ -95,7 +95,7 @@ class Penduduk extends CI_Controller
 
     public function detail($nik)
     {
-        $data['judul']      = 'Keluhan Masyarakat >> Penduduk >> Detail';
+        $data['judul']      = 'Keluhan Masyarakat - Penduduk - Detail';
         $data['aktif']      = 'penduduk';
         $data['penduduk']   = $this->M_penduduk->get_nik($nik)->row_array();
         $data['keluhan']    = $this->M_pengaduan->get_nik($nik)->num_rows();
@@ -104,7 +104,7 @@ class Penduduk extends CI_Controller
 
     public function edit($nik)
     {
-        $data['judul']      = 'Keluhan Masyarakat >> Edit Data penduduk';
+        $data['judul']      = 'Keluhan Masyarakat - Edit Data penduduk';
         $data['aktif']      = 'penduduk';
         $data['penduduk']  = $this->M_penduduk->get_nik($nik)->row_array();
         $data['agama']      = $this->M_agama->get_all()->result();
@@ -164,7 +164,7 @@ class Penduduk extends CI_Controller
 
         //jika validasi gagal
         if ($this->form_validation->run() == FALSE) {
-            $data['judul']      = 'Keluhan Masyarakat >> Edit Data penduduk';
+            $data['judul']      = 'Keluhan Masyarakat - Edit Data penduduk';
             $data['aktif']      = 'penduduk';
             $data['penduduk']   = $this->M_penduduk->get_nik($nik)->row_array();
             $data['agama']      = $this->M_agama->get_all()->result();
