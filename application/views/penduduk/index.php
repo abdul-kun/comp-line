@@ -55,7 +55,7 @@
             <div class="block-title">
                 <h2>DATA PENDUDUK </h2>
             </div>
-            <a href="#modal-fade" title="Tambah Agama" class="btn btn-effect-ripple btn-info" data-toggle="modal"><i class="fa fa-plus"></i> Tambah Penduduk</a>
+            <a href="#modal-fade" title="Tambah Penduduk" class="btn btn-effect-ripple btn-info" data-toggle="modal"><i class="fa fa-plus"></i> Tambah Penduduk</a>
             <br>
             <div class="block-section">
                 <?php

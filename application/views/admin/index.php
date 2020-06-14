@@ -55,7 +55,7 @@
             <div class="block-title">
                 <h2>DATA ADMIN </h2>
             </div>
-            <a href="#modal-fade" title="Tambah Agama" class="btn btn-effect-ripple btn-info" data-toggle="modal"><i class="fa fa-plus"></i> Tambah Admin</a>
+            <a href="#modal-fade" title="Tambah Admin" class="btn btn-effect-ripple btn-info" data-toggle="modal"><i class="fa fa-plus"></i> Tambah Admin</a>
             <br>
             <div class="block-section">
                 <?php
