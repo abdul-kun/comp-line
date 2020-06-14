@@ -59,7 +59,7 @@
                 if ($this->session->flashdata('sukses_tambah') != "") {
                     echo '<div class="alert alert-success alert-dismissable">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                <strong>Sukses!</strong> Data Berhasil Disimpan
+                                <strong>Sukses!</strong> Data Keluhan Berhasil Disimpan
                               </div>';
                 }
                 ?>
@@ -68,7 +68,7 @@
                 if ($this->session->flashdata('sukses_hapus') != "") {
                     echo '<div class="alert alert-success alert-dismissable">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                <strong>Sukses!</strong> Data Berhasil Dihapus
+                                <strong>Sukses!</strong> Data Keluhan Berhasil Dihapus
                               </div>';
                 }
                 ?>
@@ -77,7 +77,7 @@
                 if ($this->session->flashdata('sukses_edit') != "") {
                     echo '<div class="alert alert-success alert-dismissable">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                <strong>Sukses!</strong> Data Berhasil Diedit
+                                <strong>Sukses!</strong> Data Keluhan Berhasil Diedit
                               </div>';
                 }
                 ?>
