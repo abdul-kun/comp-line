@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="header-section">
-                        <h1></h1>
+                        <h1>Data Penduduk</h1>
                     </div>
                 </div>
                 <div class="col-sm-6 hidden-xs">
