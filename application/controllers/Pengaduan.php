@@ -106,7 +106,7 @@ class Pengaduan extends CI_Controller
             'Pengaduan',
             'required|trim',
             array(
-                'required' => '<div class="alert alert-danger">Gagal! Form Pengaduan Tidak Boleh Kosong.</div>'
+                'required' => '<div class="alert alert-danger">Gagal! Form Keluhan Tidak Boleh Kosong.</div>'
             )
         );
 
