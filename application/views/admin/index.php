@@ -16,7 +16,7 @@
 
             <!-- Header Link -->
             <li class="hidden-xs animation-fadeInQuick">
-                <a href=""><strong>SISTEM INFORMASI PEGADUAN MASYARAKAT</strong></a>
+                <a href=""><strong>Website Aduan Masyarakat RT 10 RW 12</strong></a>
             </li>
             <!-- END Header Link -->
         </ul>
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="header-section">
-                        <h1></h1>
+                        <h1>Data Admin</h1>
                     </div>
                 </div>
                 <div class="col-sm-6 hidden-xs">
