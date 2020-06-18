@@ -77,6 +77,22 @@ class Penduduk extends CI_Controller
                 'required' => '<div class="alert alert-danger"><strong>Error!</strong> Agama Tidak Boleh Kosong.</div>'
             )
         );
+        $this->form_validation->set_rules(
+            'alamat',
+            'Alamat',
+            'required|trim',
+            array(
+                'required' => '<div class="alert alert-danger"><strong>Error!</strong> Alamat Tidak Boleh Kosong.</div>'
+            )
+        );
+        $this->form_validation->set_rules(
+            'nohp',
+            'Nohp',
+            'required|trim',
+            array(
+                'required' => '<div class="alert alert-danger"><strong>Error!</strong> Nomor Hp / Telephone Tidak Boleh Kosong.</div>'
+            )
+        );
 
         //jika validasi gagal
         if ($this->form_validation->run() == FALSE) {
@@ -159,6 +175,22 @@ class Penduduk extends CI_Controller
             'required|trim',
             array(
                 'required' => '<div class="alert alert-danger"><strong>Error!</strong> Agama Tidak Boleh Kosong.</div>'
+            )
+        );
+        $this->form_validation->set_rules(
+            'alamat',
+            'Alamat',
+            'required|trim',
+            array(
+                'required' => '<div class="alert alert-danger"><strong>Error!</strong> Alamat Tidak Boleh Kosong.</div>'
+            )
+        );
+        $this->form_validation->set_rules(
+            'nohp',
+            'Nohp',
+            'required|trim',
+            array(
+                'required' => '<div class="alert alert-danger"><strong>Error!</strong> Nomor Hp / Telephone Tidak Boleh Kosong.</div>'
             )
         );
 

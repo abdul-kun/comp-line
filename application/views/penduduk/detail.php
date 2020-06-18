@@ -96,9 +96,21 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td><strong>No. Handphone / Telp</strong></td>
+                                <td>
+                                    <?php echo $penduduk['nohp'] ?>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td><strong>Agama</strong></td>
                                 <td>
                                     <?php echo $penduduk['nama_agama'] ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Alamat</strong></td>
+                                <td>
+                                    <?php echo $penduduk['alamat'] ?>
                                 </td>
                             </tr>
                             <tr>

@@ -94,6 +94,13 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label class="col-md-3 control-label">No. Handphone / Telp</label>
+                            <div class="col-md-9">
+                                <input type="text" name="nohp" class="form-control" value="<?php echo $penduduk['nohp'] ?>" readonly>
+                                <?php echo form_error('nohp'); ?>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="col-md-3 control-label">Jenis Kelamin</label>
                             <div class="col-md-9">
                                 <select name="jk" id="example-chosen" class="select-chosen" required>
@@ -120,6 +127,13 @@
                                     <?php endforeach; ?>
                                 </select>
                                 <?php echo form_error('id_agama') ?>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Alamat</label>
+                            <div class="col-md-9">
+                                <input type="text" name="alamat" class="form-control" value="<?php echo $penduduk['alamat'] ?>">
+                                <?php echo form_error('alamat'); ?>
                             </div>
                         </div>
                         <div class="form-group form-actions">

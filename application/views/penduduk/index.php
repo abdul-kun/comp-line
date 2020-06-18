@@ -164,28 +164,39 @@
                         <?php echo form_error('tanggal_lahir') ?>
                     </div>
                     <div class="form-group">
-                        <label>Jenis Kelamin</label>
-                        <select name="jk" id="example-chosen" class="select-chosen" required>
-                            <option value="">--Pilih Jenis Kelamin--</option>
-                            <option value="L">Laki-Laki</option>
-                            <option value="P">Perempuan</option>
-                        </select>
-                        <?php echo form_error('jk') ?>
+                        <label>No. Hanphone / Telp</label>
+                        <input type="text" name="nohp" class="form-control" placeholder="Masukkan No. HP / Telp" required>
+                        <?php echo form_error('nohp') ?>
                     </div>
                     <div class="form-group">
-                        <label>Agama</label>
-                        <select name="id_agama" id="example-chosen" class="select-chosen" required>
-                            <option value="">--Pilih Agama--</option>
-                            <?php foreach ($agama as $row) : ?>
-                                <option value="<?php echo $row->id_agama ?>"><?php echo $row->nama_agama ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                        <?php echo form_error('id_agama') ?>
-                    </div>
-                    <div class="form-group form-actions">
-                        <button type="submit" class="btn btn-effect-ripple btn-primary" name="tambah_anggota">Tambah</button>
-                        <button type="reset" class="btn btn-effect-ripple btn-danger">Reset</button>
-                    </div>
+                        <div class="form-group">
+                            <label>Jenis Kelamin</label>
+                            <select name="jk" id="example-chosen" class="select-chosen" required>
+                                <option value="">--Pilih Jenis Kelamin--</option>
+                                <option value="L">Laki-Laki</option>
+                                <option value="P">Perempuan</option>
+                            </select>
+                            <?php echo form_error('jk') ?>
+                        </div>
+                        <div class="form-group">
+                            <label>Agama</label>
+                            <select name="id_agama" id="example-chosen" class="select-chosen" required>
+                                <option value="">--Pilih Agama--</option>
+                                <?php foreach ($agama as $row) : ?>
+                                    <option value="<?php echo $row->id_agama ?>"><?php echo $row->nama_agama ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                            <?php echo form_error('id_agama') ?>
+                        </div>
+                        <div class="form-group">
+                            <label>Alamat</label>
+                            <input type="text" name="alamat" class="form-control" placeholder="Masukkan Alamat" required>
+                            <?php echo form_error('alamat') ?>
+                        </div>
+                        <div class="form-group form-actions">
+                            <button type="submit" class="btn btn-effect-ripple btn-primary" name="tambah_anggota">Tambah</button>
+                            <button type="reset" class="btn btn-effect-ripple btn-danger">Reset</button>
+                        </div>
                 </form>
             </div>
         </div>
